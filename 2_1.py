@@ -6,6 +6,8 @@
 
 lst = list()
 a = int(input())
+if a == 0:
+	print("Ошибка!")
 while a != 0:
 	lst.append(a)
 	a = int(input())
