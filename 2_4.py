@@ -14,17 +14,17 @@ prev_y = first_y
 
 line = float(input("Введите следующую координату X (Enter для окончания ввода): "))
 while line != "":
- x = float(line)
- y = float(input("Введите следующую координату Y: "))
+    x = float(line)
+    y = float(input("Введите следующую координату Y: "))
 
- dist = sqrt((prev_x - x) ** 2 + (prev_y - y) ** 2)
- perimeter = perimeter + dist
+    dist = sqrt((prev_x - x) ** 2 + (prev_y - y) ** 2)
+    perimeter = perimeter + dist
 
- prev_x = x
- prev_y = y
+    prev_x = x
+    prev_y = y
 
- line = input("Введите следующую координату X (Enter для окончания ввода): ")
-# Рассчитываем расстояние от последней точки до первой и добавляем к периметру
+    line = input("Введите следующую координату X (Enter для окончания ввода): ")
+
 dist = sqrt((first_x - x) ** 2 + (first_y - y) ** 2)
 
 perimeter = perimeter + dist
