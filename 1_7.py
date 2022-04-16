@@ -12,10 +12,14 @@
 
 #функция определения високосности года
 def is_leap(y):
-	if y % 4 != 0 or (y % 100 == 0 and y % 400 != 0):
-		return False
+	if year % 400 == 0:
+		return = True
+	elif year % 100 == 0:
+		return = False
+	elif year % 4 == 0:
+		return = True
 	else:
-		return True
+		return = False
 
 y = int(input("Введите год: "))
 m = int(input("Введите месяц: "))
