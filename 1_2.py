@@ -8,4 +8,4 @@ souvenir_weight = 75
 trinket_weight = 112
 a = int(input("Введите количество купленных сувениров: "))
 b = int(input("Введите количество купленных безделушек: "))
-print ("Общий вес посылки:", souvenir_weight*a+trinket_weight*b, "грамм.")
+print("Общий вес посылки:", souvenir_weight*a+trinket_weight*b, "грамм.")
